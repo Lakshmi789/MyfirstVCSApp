@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         mylbl.textColor = UIColor.red
         mylbl.layer.cornerRadius = 1.0
         mylbl.layer.borderColor = UIColor.red.cgColor
+        self.view.addSubview(mylbl)
         
     }
 
